@@ -1,12 +1,13 @@
 import WorldScene from "./game/scenes/WorldScene";
+//import WorldScene from "./game/scenes/Blank";
 import Stats from "./utils/stats.min";
 import common from "./common";
-
 /**
  * @class Simple application class to handle rendering scene, loading assets etc.
  */
 export default class App {
     constructor() {
+        //Global variable start {
         this._camera = null;
         this._renderer = null;
         this._activeRenderer = null;
@@ -49,9 +50,8 @@ export default class App {
       //  document.body.appendChild(stats.dom);
 
         this.stats = stats;
-
+        //}Global variables end
     }
-
     init() {
         //init delta times
         this._elapsed = performance.now();
@@ -72,7 +72,6 @@ export default class App {
 
         this.loadFiles(this._files, this.onLoadingComplete);
     }
-
     loadFiles(files, callback) {
         const length = files.length;
         let count = 0;
@@ -112,12 +111,13 @@ export default class App {
         }
     }
 
+    //LOADS SCENE IN TO BROWSER
     onLoadingComplete() {
         common.config = this.getData("config");
         this.setActiveScene(new WorldScene());//create and set an active scene
         this.update();//start update loop running
     }
-
+    
     update() {
         this.stats.begin();
 
@@ -138,7 +138,6 @@ export default class App {
 
         this.stats.end();
     }
-
     resize() {
 
         this._renderer.setSize(window.innerWidth, window.innerHeight);
@@ -148,7 +147,6 @@ export default class App {
         this._camera.updateProjectionMatrix();
         if (this._activeScene) this._activeScene.resize();
     }
-
     /**
      * @param scene {Scene}
      */
@@ -158,7 +156,6 @@ export default class App {
         this._activeScene.camera = this._camera;
         this._activeScene.start();
     }
-
     /**
      * Loads a gltf model
      * @param fileData {Object}
@@ -242,8 +239,6 @@ export default class App {
             console.error(e);
         });
     }
-
-
     /**
      * Loads a texture
      * @param fileData
@@ -254,7 +249,6 @@ export default class App {
         this._assets.textures[fileData.name].texture = this.textureLoader.load(fileData.uri);
         if (callback) callback.call(this);
     }
-
     loadData(fileData, callback) {
         this._assets.data[fileData.name] = {};
         this.fileLoader.load(
@@ -280,7 +274,6 @@ export default class App {
             }
         );
     }
-
     /**
      * fetches a model from asset cache
      * @param name {String}
@@ -289,7 +282,6 @@ export default class App {
     getModel(name) {
         return this._assets.models[name].model;
     }
-
     /**
      * fetches a texture from asset cache
      * @param name {String}
@@ -298,7 +290,6 @@ export default class App {
     getTexture(name) {
         return this._assets.textures[name].texture;
     }
-
     /**
      * fetches a data file from asset cache
      * @param name {String}
@@ -307,23 +298,18 @@ export default class App {
     getData(name) {
         return this._assets.data[name];
     }
-
     get assets() {
         return this._assets;
     }
-
     get renderer() {
         return this._renderer;
     }
-
     get width() {
         return this._renderer.getDrawingBufferSize().width;
     }
-
     get height() {
         return this._renderer.getDrawingBufferSize().height;
     }
-
     set renderer(value) {
         this._activeRenderer = value;
     }

@@ -1,0 +1,323 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 2448,
+            "uri": "data:application/octet-stream;base64,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"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 72,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 1032,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 1224,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 1296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 1584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 1872,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 2256,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                -8.63675880432129,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                8.63675880432129,
+                2.40417790412903
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 24,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 24,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 6,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                -8.63675880432129,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                8.63675880432129,
+                2.40417790412903
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 24,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 24,
+            "bufferView": 9,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "HexagonThick.fbm/hexagonMap.png",
+            "uri": "HexagonThick.fbm/hexagonMap.png"
+        },
+        {
+            "name": "HexagonThick.fbm/hexagonMap.png",
+            "uri": "HexagonThick.fbm/hexagonMap.png"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "file5",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "file4",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "emissionMaterial",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Metallic/Roughness",
+                    "isTruePBR": true
+                }
+            },
+            "emissiveTexture": {
+                "index": 0,
+                "texCoord": 0
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    0.00599998235702515,
+                    0.273618042469025,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.330000013113022
+            }
+        },
+        {
+            "name": "lambert1",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.400000005960464,
+                    0.400000005960464,
+                    0.400000005960464,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Floorpranelthick",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0
+                },
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Floorpranelthick",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}

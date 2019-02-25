@@ -1,0 +1,323 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 1968,
+            "uri": "data:application/octet-stream;base64,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"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 72,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 1032,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 1224,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 1296,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 1464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 1632,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 112,
+            "byteOffset": 1856,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                9.54417991638184,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                10.1379890441895,
+                2.40417957305908
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 24,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 24,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 14,
+            "bufferView": 6,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                9.54417991638184,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                10.1379890441895,
+                2.40417957305908
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 14,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 14,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 14,
+            "bufferView": 9,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "HexagonThin.fbm/hexagonMap.png",
+            "uri": "HexagonThin.fbm/hexagonMap.png"
+        },
+        {
+            "name": "HexagonThin.fbm/hexagonMap.png",
+            "uri": "HexagonThin.fbm/hexagonMap.png"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "file5",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "file4",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "emissionMaterial",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Metallic/Roughness",
+                    "isTruePBR": true
+                }
+            },
+            "emissiveTexture": {
+                "index": 0,
+                "texCoord": 0
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    0.00599998235702515,
+                    0.273618042469025,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.330000013113022
+            }
+        },
+        {
+            "name": "lambert1",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.400000005960464,
+                    0.400000005960464,
+                    0.400000005960464,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Floorpranelthin",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0
+                },
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6,
+                        "TANGENT": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 5
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Floorpranelthin",
+            "translation": [
+                0.0,
+                -1.13686837721616e-13,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 1360,
+            "uri": "data:application/octet-stream;base64,AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACAAKAAsADAANAA4ADQAMAA8AEAARABIAEQAQABMAFAAVABYAFQAUABcAwqsxQPa0GEEAAAAAwquxP/a0GEEP3hnAwquxPzQ1IkEP3hnAwqsxQDQ1IkEAAAAAwquxP/a0GEEU3hlAwqsxQPa0GEEAAAAAwqsxQDQ1IkEAAAAAwquxPzQ1IkEU3hlAwquxPzQ1IkEU3hlArquxvzQ1IkEU3hlArquxv/a0GEEU3hlAwquxP/a0GEEU3hlAuKsxwPa0GEEAAAAArquxvzQ1IkEU3hlAuKsxwDQ1IkEAAAAArquxv/a0GEEU3hlArquxv/a0GEEP3hnAuKsxwDQ1IkEAAAAArquxvzQ1IkEP3hnAuKsxwPa0GEEAAAAAwquxP/a0GEEP3hnArquxvzQ1IkEP3hnAwquxPzQ1IkEP3hnArquxv/a0GEEP3hnA2bNdPwAAAAD4//++2bNdPwAAAAD4//++2bNdPwAAAAD4//++2bNdPwAAAAD4//++2bNdPwAAAAD4//8+2bNdPwAAAAD4//8+2bNdPwAAAAD4//8+2bNdPwAAAAD4//8+AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/2bNdvwAAAAD4//8+2bNdvwAAAAD4//8+2bNdvwAAAAD4//8+2bNdvwAAAAD4//8+2bNdvwAAAAD4//++2bNdvwAAAAD4//++2bNdvwAAAAD4//++2bNdvwAAAAD4//++AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/UFUVPwAAMD8AACA/AAAwPwAAID/KhJ8+UFUVP8qEnz6wqgo/AAAwP1BVFT8AADA/UFUVP8qEnz6wqgo/yoSfPrCqCj/KhJ8+AAAAP8qEnz4AAAA/AAAwP7CqCj8AADA/n6rqPgAAMD8AAAA/yoSfPp+q6j7KhJ8+AAAAPwAAMD9hVdU+AAAwP5+q6j7KhJ8+YVXVPsqEnz6fquo+AAAwPwAAwD4AADA/YVXVPsqEnz4AAMA+yoSfPmFV1T4AADA/AAABAAIAAwAAAAIABAADAAIABQAEAAIABgAFAAIAAQAGAAIABwAIAAkACAAKAAkACgALAAkACwAMAAkADQAHAAkADAANAAkAwqsxQDQ1IkEAAAAAwquxPzQ1IkEP3hnACtcjNjQ1IkEAAAAAwquxPzQ1IkEU3hlArquxvzQ1IkEU3hlAuKsxwDQ1IkEAAAAArquxvzQ1IkEP3hnAwqsxQPa0GEEAAAAAwquxP/a0GEEU3hlACtcjNva0GEEAAAAArquxv/a0GEEU3hlAuKsxwPa0GEEAAAAArquxv/a0GEEP3hnAwquxP/a0GEEP3hnAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAoPwAAID4AABQ/wH2rPAAAAD9oZiY+AAAUPyRIlT4AANg+JEiVPgAAsD4AACA+AADYPsB9qzwAACg/AABYPwAAFD/uWzU/AAAAP5qZWT8AANg+7ls1PwAAsD4AAFg/AADYPhKkej8AABQ/EqR6Pw=="
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 72,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 648,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72,
+            "byteOffset": 840,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 912,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 168,
+            "byteOffset": 1080,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 112,
+            "byteOffset": 1248,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                9.54417991638184,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                10.1379890441895,
+                2.40417957305908
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 24,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 24,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 14,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -2.7761058807373,
+                9.54417991638184,
+                -2.40417838096619
+            ],
+            "max": [
+                2.7761082649231,
+                10.1379890441895,
+                2.40417957305908
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 14,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 14,
+            "bufferView": 7,
+            "byteOffset": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "materials": [
+        {
+            "name": "floorblueMAT",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.280000001192093,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        },
+        {
+            "name": "floorwhiteMAT",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.358041971921921,
+                    0.358041971921921,
+                    0.358041971921921,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.301511347293854
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Floorpranelthin",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                },
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Floorpranelthin",
+            "translation": [
+                0.0,
+                -1.13686837721616e-13,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}
