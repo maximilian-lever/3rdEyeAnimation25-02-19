@@ -1,0 +1,9 @@
+{
+  "dollySpeed": {
+    "mobile": 2,
+    "desktop": 24
+  },
+  "dollyEase": 0.08,
+  "lookSpeed": 4,
+  "lookEase": 0.08
+}
