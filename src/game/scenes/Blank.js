@@ -35,40 +35,16 @@ export default class WorldScene extends Scene {
         const light = new THREE.HemisphereLight(0xbbbbff, 0x444422);
         light.position.set(0, 1, 0);
         //light.intensity = 0.08;//Brightness
-        light.intensity = 3;
+        light.intensity = 5;
         //light.color = new THREE.Color(0x66b7f3);
         this.add(light);
 //--------------------------------------------------------------------
 
-        const directionalLight = new THREE.DirectionalLight(0xffffff);
-        directionalLight.position.set(40, 60, -40);
-        directionalLight.distance = 0;
-        directionalLight.intensity = 0.18;
-        directionalLight.color = new THREE.Color(0x66b7f3);
-        this.add(directionalLight);
-
-//Floor---------------------------------------------------------------
-        const skybox = this.app.getModel("skybox");
-        skybox.scale.set(100, 100, 100);
-        this.add(skybox);
-//--------------------------------------------------------------------
-//Helicopter----------------------------------------------------------
         const heliParent = new THREE.Scene();//Makes screen black if removed
-        this.add(heliParent);//Stops Helicopter
-        heliParent.rotation.y = Math.PI * 1.5;//Not sure what this does
+        this.add(heliParent);//Removes Helicopter
         this._heliParent = heliParent;
-        const helicopter = this.app.getModel("helicopter");//(helicopter needs to be below heliParent or makes screen black)
-        helicopter.scale.z = 10;//Helicopter length
-        helicopter.scale.x = 10;//Helicopter width
-        helicopter.scale.y = 10;//Helicopter height
-        helicopter.position.y = 110;//Assuming this is how high the Helicopter animation is
-        helicopter.position.z = 90;//Assuming this is the length of where the Helicopter animation is
-        heliParent.add(helicopter);//Adds helicopter animation
-//--------------------------------------------------------------------
-
-        helicopter.rotation.x = -Math.PI * 0.1;//Not sure what this does 
-        helicopter.rotation.y = Math.PI * 0.5;//Turns Helicopter right
-
+        const helicopter = this.app.getModel("helicopter");//needed or makes screen black also helicopter needs to be below heliParent
+        
         // const hex = this.app.getModel("hexagon_tall");
         /// hex.scale.set(10, 10, 10);
         /// this.add(hex);

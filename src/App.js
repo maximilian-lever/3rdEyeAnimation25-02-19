@@ -1,4 +1,5 @@
-import WorldScene from "./game/scenes/WorldScene";
+import WorldScene from "./game/scenes/Blank";
+//import WorldScene from "./game/scenes/WorldScene";
 import Stats from "./utils/stats.min";
 import common from "./common";
 /**
